@@ -8,6 +8,9 @@ body {
   height: 72px;
   background: darkmagenta;
   color: white;
+  padding: 16px;
+  font-size: 32px;
+  padding-top: 32px;
 }
 
 .footer {
@@ -20,10 +23,45 @@ body {
   width: 300px;
   background: royalblue;
   box-sizing: border-box;
+  padding-right: 300px;
+  height: 100vh;
+  display: flex;
+  padding: 16px;
 }
 
 .card {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+  width: 300px;
+  height: 200px;
+  display: flex;
+  margin: 100px;
+  padding: 16px;
+}
+.con{
+  display: flex;
+  flex-direction: row;
+}
+
+.cont{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex-grow: 2;
+  align-items: center;
+  width: 900px;
+  height: 900px;
+}
+
+.contr{
+  display: flex;
+  flex-direction: row;
+}
+
+a{
+  color: #eee;
+  text-decoration: none;
+  display: flex;
+  padding-top: 16px;
 }
